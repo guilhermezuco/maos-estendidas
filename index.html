@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mãos Estendidas - Projeto social que ajuda moradores de rua em São Paulo">
+  <link rel="shortcut icon" href="./img/logo-icon.png" type="image/x-icon">
+  <title>Mãos Estendidas - Ajudando quem mais precisa</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0eb1b399f9.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" height="50px" alt="Logotipo Mãos Estendidas" class="img-fluid">
+        </a>
+        <button class="navbar-toggler border-0 p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#doacoes">Doações</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <a class="btn btn-primary btn-doar" href="formulario.html">Doar Agora</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="hero-title">Transformando vidas com solidariedade</h1>
+          <p class="hero-subtitle text-light">Sua ajuda faz a diferença na vida de quem mais precisa</p>
+          <div class="d-flex gap-3 justify-content-center">
+            <a href="formulario.html" class="btn btn-primary btn-lg">Quero Ajudar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Sobre Nós</h2>
+        <p class="section-subtitle">Conheça nossa missão e valores</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card feature-card h-100">
+            <div class="feature-icon">
+              <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+            <h3>Quem Somos</h3>
+            <p>Mãos Estendidas é um Projeto Social Voluntário que distribui marmitas todas as segundas-feiras em Sapopemba, São Matheus e Rio das Pedras.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card feature-card h-100">
+            <div class="feature-icon">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>Nossa Missão</h3>
+            <p>Levar ajuda e esperança para pessoas em situação de vulnerabilidade, suprindo necessidades básicas e promovendo dignidade.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card feature-card h-100">
+            <div class="feature-icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <h3>Impacto Social</h3>
+            <p>Sua contribuição, somada ao nosso esforço, transforma vidas e traz esperança para muitas pessoas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doações -->
+  <section id="doacoes" class="py-5 bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Como Ajudar</h2>
+        <p class="section-subtitle">Suas doações fazem a diferença</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="donation-type text-center">
+            <div class="donation-icon">
+              <img src="./img/cesta-basica.png" alt="Cesta Básica" class="img-fluid rounded-circle">
+            </div>
+            <h4>Cesta Básica</h4>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="donation-type text-center">
+            <div class="donation-icon">
+              <img src="./img/roupas.png" alt="Roupas" class="img-fluid rounded-circle">
+            </div>
+            <h4>Roupas</h4>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="donation-type text-center">
+            <div class="donation-icon">
+              <img src="./img/medicamentos.png" alt="Medicamentos" class="img-fluid rounded-circle">
+            </div>
+            <h4>Medicamentos</h4>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="donation-type text-center">
+            <div class="donation-icon">
+              <img src="./img/brinquedos.png" alt="Brinquedos" class="img-fluid rounded-circle">
+            </div>
+            <h4>Brinquedos</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="formulario.html" class="btn btn-primary btn-lg px-5">Fazer Doação</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Estamos aqui para responder suas dúvidas</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <h4>WhatsApp</h4>
+                <p>(11) 2093-6842</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <div>
+                <h4>E-mail</h4>
+                <p>maos@estendidas.org.br</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Localização</h4>
+                <p>Sapopemba, São Paulo - SP</p>
+              </div>
+            </div>
+            
+            <div class="social-links mt-4">
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116983.20377747373!2d-46.66835258588985!3d-23.614189301760522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e6f253474ab%3A0x374695f3b90296c9!2sGrupo%20M%C3%A3os%20Estendidas%2FNAF!5e0!3m2!1spt-BR!2sbr!4v1725134365010!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <img src="./img/logo.png" alt="Mãos Estendidas" height="40" class="mb-3 mb-md-0">
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0 text-light">© 2025 Mãos Estendidas. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
